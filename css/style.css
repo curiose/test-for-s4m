@@ -155,12 +155,13 @@ img {
   letter-spacing: 0.02em;
   padding: 9px 31px;
   margin-left: 90px;
-  position: relative;
+  text-align: center;
 }
 
 .icon-btn_icon {
   width: 23px;
-  height: 23px;
+  height: 25px;
   margin-right: 14px;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */
