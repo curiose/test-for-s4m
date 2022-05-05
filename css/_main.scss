@@ -1,0 +1,58 @@
+
+
+@import "../fonts/Lato-Black.ttf";
+@import "../fonts/Lato-Bold.ttf";
+@import "../fonts/Lato-Regular.ttf";
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Lato", sans-serif;
+   color: #331a2f;
+}
+
+body {
+   background-image: url("/Img/BG\ Ellipse.webp");
+   background-repeat: no-repeat;
+}
+
+
+.bg-left {
+   left: 0;
+   top: 0;
+}
+
+.container {
+   max-width: 1560px;
+   margin: 0 auto;
+   display: flex;
+   padding: 15px 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+}
+
+ul, ol {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+}
