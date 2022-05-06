@@ -15,21 +15,26 @@
 }
 
 body {
-   background-image: url("/Img/BG\ Ellipse.webp");
-   background-repeat: no-repeat;
+   position: relative;
 }
 
-
 .bg-left {
+   position: absolute;
    left: 0;
    top: 0;
+}
+
+.bg-right {
+   position: absolute;
+   top: 397px;
+   right: 0;
 }
 
 .container {
    max-width: 1560px;
    margin: 0 auto;
    display: flex;
-   padding: 15px 0;
+   padding: 0 15px;
 }
 
 a {

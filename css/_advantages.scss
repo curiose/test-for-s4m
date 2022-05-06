@@ -1,0 +1,82 @@
+.advantages__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.advantages-title {
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 62px;
+   width: 678px;
+   text-align: center;
+
+   &::after {
+      content: " ";
+      position: absolute;
+      width: 261px;
+      height: 7px;
+      background: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+      bottom: 558px;
+      right: 618px;
+      border-radius: 5px;
+   }
+
+   &--pink {
+      color: #cf51ce;
+
+      
+   }
+}
+
+.advantages-text {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 40px;
+   text-align: center;  
+   color: #331a2f;
+   opacity: 0.8;
+   width: 846px;
+   margin-top: 29px;
+   margin-bottom: 63px;
+}
+
+.advantages__cards {
+   display: flex;
+   justify-content: space-between;
+}
+
+.advantages__list {
+   display: flex;
+   flex-direction: column;
+   margin-right: 98px;
+   text-align: left;
+
+   &-item {
+      
+
+      &--subtitle {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 150%;
+         width: 290px;
+         margin-bottom: 15px;
+
+      }
+
+      &--desr {
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 160%;
+         opacity: 0.8;
+         width: 290px;
+
+      }
+   }
+}
+
+.advantages__icon {
+   width: 120px;
+   height: 120px;
+}
+
